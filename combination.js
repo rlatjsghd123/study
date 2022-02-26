@@ -18,14 +18,14 @@ function combination(arr, data, s, idx, r){
 combination(input, output, 0, 0, 2);
 console.log(count);
 
-function combination(){
-    for(let i = 0; i < input.length; i++){
-        for(let j = i+1; j < input.length; j++){
-            count++;
-            console.log(i, j);
-        }
-    }
-}
-combination();
-console.log(count);
+// function combination(){
+//     for(let i = 0; i < input.length; i++){
+//         for(let j = i+1; j < input.length; j++){
+//             count++;
+//             console.log(i, j);
+//         }
+//     }
+// }
+// combination();
+// console.log(count);
 
